@@ -1,0 +1,287 @@
+{
+    "Identifier": "getBuildPassRates completed",
+    "Result": {
+        "Items": [
+            {
+                "Defect Count": {
+                    "Total": 5,
+                    "Verified": 5,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 304,
+                        "Error Count": 0,
+                        "Failure Count": 251,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.174
+                    }
+                ],
+                "Build Timestamp": "2018-04-17 06:53:00.0",
+                "Build Version": 317,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180417-0253.317"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 125,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.177
+                    }
+                ],
+                "Build Timestamp": "2018-04-18 06:32:00.0",
+                "Build Version": 318,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180418-0232.318"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 150,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.013
+                    }
+                ],
+                "Build Timestamp": "2018-04-19 06:32:00.0",
+                "Build Version": 319,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180419-0232.319"
+            },
+            {
+                "Defect Count": {
+                    "Total": 3,
+                    "Verified": 3,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 124,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.184
+                    }
+                ],
+                "Build Timestamp": "2018-04-20 06:32:00.0",
+                "Build Version": 320,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180420-0232.320"
+            },
+            {
+                "Defect Count": {
+                    "Total": 1,
+                    "Verified": 1,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 121,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.203
+                    }
+                ],
+                "Build Timestamp": "2018-04-23 06:32:00.0",
+                "Build Version": 321,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180423-0232.321"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 125,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.177
+                    }
+                ],
+                "Build Timestamp": "2018-04-24 06:32:00.0",
+                "Build Version": 322,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180424-0232.322"
+            },
+            {
+                "Defect Count": {
+                    "Total": 2,
+                    "Verified": 2,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 134,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.118
+                    }
+                ],
+                "Build Timestamp": "2018-04-25 06:32:00.0",
+                "Build Version": 323,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180425-0232.323"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 150,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.013
+                    }
+                ],
+                "Build Timestamp": "2018-04-26 06:32:00.0",
+                "Build Version": 324,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180426-0232.324"
+            },
+            {
+                "Defect Count": {
+                    "Total": 6,
+                    "Verified": 6,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 304,
+                        "Error Count": 0,
+                        "Failure Count": 267,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.121
+                    }
+                ],
+                "Build Timestamp": "2018-04-30 06:32:00.0",
+                "Build Version": 326,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180430-0232.326"
+            },
+            {
+                "Defect Count": {
+                    "Total": 1,
+                    "Verified": 1,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 118,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.223
+                    }
+                ],
+                "Build Timestamp": "2018-05-01 06:32:00.0",
+                "Build Version": 327,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180501-0232.327"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 118,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.223
+                    }
+                ],
+                "Build Timestamp": "2018-05-02 06:32:00.0",
+                "Build Version": 328,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180502-0232.328"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 118,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.223
+                    }
+                ],
+                "Build Timestamp": "2018-05-03 06:32:00.0",
+                "Build Version": 329,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180503-0232.329"
+            },
+            {
+                "Defect Count": {
+                    "Total": 0,
+                    "Test Category": "All"
+                },
+                "Git Branch": "ivt_20.1",
+                "Pass Rates": [
+                    {
+                        "Test Count": 152,
+                        "Error Count": 0,
+                        "Failure Count": 118,
+                        "Test Category": "Cucumber_UI",
+                        "Test Phase": "BVT",
+                        "Pass Rate": 0.223
+                    }
+                ],
+                "Build Timestamp": "2018-05-04 06:32:00.0",
+                "Build Version": 330,
+                "Sprint": "20.1",
+                "Build Name": "bvt.ivt_20.1.20180504-0232.330"
+            }
+        ],
+        "Total Item Count": 13
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SLA Test Automation</title>
+	<script type="text/javascript" src="assets/script/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="assets/script/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="assets/script/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="assets/script/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="assets/script/jquery.canvasjs.min.js"></script>
+	<script type="text/javascript" src="report.js"></script>
+	<script type="text/javascript">
+		function adjustCanvas(tab_link) {
+			// CanvasJS charts only readjusts when the window size changes, hence adding this fucntion to explicitly adjust on every tab click
+			var tab_id = tab_link.substring(tab_link.lastIndexOf("#"));
+			setTimeout(function(){
+				$(tab_id).find(".chart").CanvasJSChart().render();
+			},20); // delay for 0.5 second for the parent container to be ready
+		}
+		// $(function () {
+		// 	$(".chart-tab").click(function(){
+		// 		this.find(".chart").CanvasJSChart().render();
+		// 	});
+		// });
+	</script>
+</script>
+</head>
+
+<body>
+	<h3 style="font-family: Arial; font-size: 150%"><b>SLA - Test Automation Daily Yield</b></h3>
+	<p style="font-family: Arial; font-size: small">Contact | SLA Testing Team <a href="mailto:ruifengm@sg.ibm.com">ruifengm@sg.ibm.com</a> &copy; 2017-Jul-19</p><br/>
+	<p style="font-family: Arial; font-size: small; color:blue"><i>Note: maximum 20 entries are shown for each test category, contact the administrator if more is needed</i></p><br/>
+	<div id="tabs">
+		<ul>
+			<li><a href="#ui_cucumber-tab" style="font-size: 12px" onClick="adjustCanvas(this.href)">UI Cucumber</a></li>
+			<li><a href="#console_cucumber-tab" style="font-size: 12px" onClick="adjustCanvas(this.href)">Console Cucumber</a></li>
+			<li><a href="#windows_kitchen-tab" style="font-size: 12px" onClick="adjustCanvas(this.href)">Windows Kitchen</a></li>
+			<li><a href="#linux_kitchen-tab" style="font-size: 12px" onClick="adjustCanvas(this.href)">Linux Kitchen</a></li>
+			<li><a href="#aix_kitchen-tab" style="font-size: 12px" onClick="adjustCanvas(this.href)">AIX Kitchen</a></li>
+			<li><a href="#summary" style="font-size: 12px">Summary</a></li>
+		</ul>
+
+		<div id="ui_cucumber-tab" style="height: 360px">
+			<link href="assets/css/custom.css" rel="stylesheet" />
+			<div class="chart" style="height: 330px; width: 100%;"></div>
+		</div>
+
+		<div id="console_cucumber-tab" style="height: 360px">
+			<link href="assets/css/custom.css" rel="stylesheet" />
+			<div class="chart" style="height: 330px; width: 100%;"></div>
+		</div>
+
+		<div id="windows_kitchen-tab" style="height: 360px">
+			<link href="assets/css/custom.css" rel="stylesheet" />
+			<div class="chart" style="height: 330px; width: 100%;"></div>
+		</div>
+
+		<div id="linux_kitchen-tab" style="height: 360px">
+			<link href="assets/css/custom.css" rel="stylesheet" />
+			<div class="chart" style="height: 330px; width: 100%;"></div>
+		</div>
+
+		<div id="aix_kitchen-tab" style="height: 360px">
+			<link href="assets/css/custom.css" rel="stylesheet" />
+			<div class="chart" style="height: 330px; width: 100%;"></div>
+		</div>
+
+		<div id="summary" style="height: 450px">
+			<link href="assets/css/jquery.dataTables.min.css" rel="stylesheet" />
+			<div class="dataTables_length">
+				<label for="sprint">Sprint <select placeholder="" name="sprint" class="date-picker" id="sprintDropdown">
+						<option>All</option>
+					</select>
+				</label>
+			</div>
+			<table id="summaryTable" class="table" class="display" width="100%"></table>
+		</div>
+
+	</div>
+</body>
+
+</html>
